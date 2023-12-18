@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Camera, Audio, and Location Access</title>
+    <title>3rd Party Domain</title>
     <style>
       /* Basic styling */
       body {
@@ -16,6 +16,7 @@
         background-color: #f4f4f4;
       }
       h1 {
+        color: blueviolet;
         font-size: 76px;
         text-align: center;
       }
@@ -34,7 +35,7 @@
         margin: 20px;
         border: none;
         border-radius: 12px;
-        background-color: #007bff;
+        background-color: #ec5f5f;
         color: white;
         cursor: pointer;
         font-size: 64px;
@@ -49,7 +50,7 @@
         padding: 25px;
         border: none;
         border-radius: 12px;
-        background-color: #007bff;
+        background-color: #ec5f5f;
         color: white;
         cursor: pointer;
         font-size: 64px;
@@ -82,7 +83,7 @@
     </style>
   </head>
   <body>
-    <h1>Camera, Audio, and Location Access</h1>
+    <h1>3rd Party Domain</h1>
     <div id="camera-preview">
       <video id="video-feed" playsinline></video>
       <canvas id="capture-canvas" style="display: none"></canvas>
@@ -94,10 +95,10 @@
       Request Location Permission
     </button>
     <button id="capture-btn">Capture Image</button>
-    <button id="open-new-path" class="permission-btn">Open New Path</button>
+    <!-- <button id="open-new-path" class="permission-btn">Open New Path</button>
     <button id="third-party-domain" class="permission-btn">
       Third Party Domain
-    </button>
+    </button> -->
     <img id="captured-image" alt="Captured Image" />
     <p id="location-info">Location: <span id="coordinates"></span></p>
 
